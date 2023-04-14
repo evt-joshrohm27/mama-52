@@ -1,0 +1,57 @@
+@keyframes back-animation {
+    0% {
+        color: rgb(0, 128, 0);
+        background-color: rgb(135, 206, 250);
+    }
+    25% {
+        color: rgb(0,1,0);
+        background-color: rgb(25,162,245);
+    }
+    50% {
+        color: rgb(0,2,0);
+        background-color: rgb(44,54,58);
+    }
+    75% {
+    color: rgb(0,50,0);
+    background-color: rgb(87,108,115);
+    }
+    100% {
+        color: rgb(0, 100, 0);
+        background-color: rgb(173, 216, 230);
+    }
+}
+body {
+    animation-name: back-animation;
+    animation-duration: 8s;
+    color: rgb(0, 100, 0);
+    background-color: rgb(173, 216, 230);
+}
+h1 {
+    color: rgb(22,116,28);
+    font-size: 200%;
+    font-weight: bold;
+}
+em {
+    color: yellow;
+    font-size: 95%;
+}
+strong {
+    color: red;
+    font-size: 150%;
+}
+br {
+    height: 200%;
+}
+#surprise {
+    background-color: rgb(58,72,77);
+    color: rgb(0,33,0);
+}
+#greeting {
+    background-color: rgb(43,54,58);
+    color: rgb(0,25,0);
+}
+footer {
+bottom: 0px;
+font-size: 8px;
+border: 0.5px solid orange;
+}
